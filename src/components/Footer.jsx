@@ -72,11 +72,11 @@ function Footer() {
               <div><a href="https://www.instagram.com/gagans_04/" target="_blank" rel="noreferrer"><img className="icon" src={require("../assets/img/icons/instagram.png")} alt="Instagram Icon" /></a></div>
             </div>
             <div className="mx-8 text-center">
-              <p>Feel free to connect with me, whether it's for a coding collaboration, a good tech discussion, or if you just want to share your favorite programming pun.</p>
+              <p>Feel free to connect with me, whether it's for a coding collaboration, a good tech discussion, or if you just want to share your favorite programming pun. Let's make the tech world a bit brighter, one line of code and one joke at a time! 🚀</p>
             </div>
           </Col>
         </Row>
-        <p className="copyright lg:float-right md:float-right pb-8 text-center">&copy; Copyright 2023. All Rights Reserved</p>
+        <p className="copyright lg:float-right md:float-right pb-8 text-center mx-10">&copy; Copyright 2023. All Rights Reserved</p>
       </Container>
     </footer>
   )
