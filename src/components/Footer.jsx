@@ -65,7 +65,7 @@ function Footer() {
             </form>
           </Col>
           <Col size={12} md={6}>
-            <div className="social-icon flex justify-between mx-8">
+            <div className="social-icon flex justify-between pt-4 lg:pt-0 md:pt-0 mx-8">
               <div><a href="https://github.com/Astraxx04" target="_blank" rel="noreferrer"><img className="icon" src={require("../assets/img/icons/github.png")} alt="Github Icon" /></a></div>
               <div><a href="https://www.linkedin.com/in/gagan-s-105706202/" target="_blank" rel="noreferrer"><img className="icon" src={require("../assets/img/icons/linkedin.png")} alt="LinkedIn Icon" /></a></div>
               <div><a href="mailto:gagan200254@gmail.com" target="_blank" rel="noreferrer"><img className="icon" src={require("../assets/img/icons/gmail.png")} alt="Gmail Icon" /></a></div>
@@ -76,7 +76,7 @@ function Footer() {
             </div>
           </Col>
         </Row>
-        <p className="copyright lg:text-right md:text-right sm:text-center lg:mx-8 md:mx-8">&copy; Copyright 2023. All Rights Reserved</p>
+        <p className="copyright lg:float-right md:float-right pb-8 text-center">&copy; Copyright 2023. All Rights Reserved</p>
       </Container>
     </footer>
   )
