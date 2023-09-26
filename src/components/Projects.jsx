@@ -1,6 +1,5 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "../assets/css/projects.css";
 import TrackVisibility from 'react-on-screen';
@@ -30,24 +29,24 @@ function Projects() {
       pageUrl: "https://catalysis.netlify.app",
     },
     {
-      title: "Business Startup",
+      title: "Learn Z",
       description: "Design & Development",
-      imgUrl: projImg1,
-      gitUrl: "", 
+      imgUrl: require("../assets/img/projects/ticketshow.png"),
+      gitUrl: "https://github.com/Astraxx04/LearnZ", 
       pageUrl: "",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-      gitUrl: "", 
+      title: "Ticket Booking",
+      description: "A show ticket booking application made from python and flask. It helps users book tickets and helps the admin in identifying trends through graphs",
+      imgUrl: require("../assets/img/projects/ticketshow.png"),
+      gitUrl: "https://github.com/Astraxx04/ticketshow_mad1", 
       pageUrl: "",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-      gitUrl: "", 
+      title: "Organ Procurement",
+      description: "Hospitals will be able to request for a required organ and the hospitals with the required organ will be displayed according to their distance.",
+      imgUrl: require("../assets/img/projects/organProcurement.png"),
+      gitUrl: "https://github.com/Astraxx04/Organ_Procurement_Network", 
       pageUrl: "",
     },
   ];

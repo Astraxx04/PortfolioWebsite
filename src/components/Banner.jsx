@@ -16,7 +16,7 @@ function Banner() {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h1 className="pt-8">Yello! I'm Gagan</h1>
+                <h1 className="pt-8">Hola! I'm Gagan</h1>
                   <p>
                     I'm a final year student pursuing a degree in Information Science and Engineering from DSCE Bangalore. I'm a passionate MERN stack developer who loves to craft web applications that not only look good but also work seamlessly.
                     Currently, I'm on a thrilling journey, exploring the enchanting world of Artificial Intelligence and Machine Learning. <br /><br />
@@ -27,6 +27,7 @@ function Banner() {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
+            <img className="rounded-full mx-auto w-96" src={require("../assets/img/profile.jpg")} alt="ProfilePic"></img>
           </Col>
         </Row>
       </Container>
