@@ -30,24 +30,24 @@ function Projects() {
     },
     {
       title: "Learn Z",
-      description: "Design & Development",
-      imgUrl: require("../assets/img/projects/ticketshow.png"),
+      description: "Deployment under process",
+      imgUrl: require("../assets/img/projects/learnz.png"),
       gitUrl: "https://github.com/Astraxx04/LearnZ", 
       pageUrl: "",
     },
     {
       title: "Ticket Booking",
-      description: "A show ticket booking application made from python and flask. It helps users book tickets and helps the admin in identifying trends through graphs",
+      description: "A Python and Flask app for ticket booking, allowing users to book tickets and enabling admin to track trends with graphs.",
       imgUrl: require("../assets/img/projects/ticketshow.png"),
       gitUrl: "https://github.com/Astraxx04/ticketshow_mad1", 
-      pageUrl: "",
+      pageUrl: "https://astraxx04.pythonanywhere.com",
     },
     {
       title: "Organ Procurement",
-      description: "Hospitals will be able to request for a required organ and the hospitals with the required organ will be displayed according to their distance.",
+      description: "Hospitals can request organs, and nearby hospitals with available organs will be displayed based on proximity.",
       imgUrl: require("../assets/img/projects/organProcurement.png"),
       gitUrl: "https://github.com/Astraxx04/Organ_Procurement_Network", 
-      pageUrl: "",
+      pageUrl: "https://astraxx2542.pythonanywhere.com",
     },
   ];
 
