@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -5,6 +6,13 @@ import "../assets/css/projects.css";
 import TrackVisibility from 'react-on-screen';
 
 function Projects() {
+
+  const [showMiniProjects, setShowMiniProjects] = useState(false);
+
+  const handleMiniProjectsClick = () => {
+    setShowMiniProjects(!showMiniProjects);
+  };
+  const getArrowCharacter = () => (showMiniProjects ? '↑' : '↓');
 
   const projects = [
     {
@@ -22,15 +30,15 @@ function Projects() {
       pageUrl: "https://www.hackman.in",
     },
     {
-      title: "Catalysis",
-      description: "A static web portal designed to give necessary information about the events organised during a technical fest.",
-      imgUrl: require("../assets/img/projects/catalysis.png"),
-      gitUrl: "https://github.com/Astraxx04/catalysis", 
-      pageUrl: "https://catalysis.netlify.app",
+      title: "Catalysis2.0",
+      description: "A MERN Stack application designed to take registrations of participants and provide them with the necessaey information about a technical fest.",
+      imgUrl: require("../assets/img/projects/catalysis2.png"),
+      gitUrl: "https://github.com/Astraxx04/Catalysis2.0", 
+      pageUrl: "https://isecatalysis.in",
     },
     {
       title: "Learn Z",
-      description: "Deployment under process",
+      description: "An all-in-one E-learning platform for students and teachers where students can access materials posted by educators.",
       imgUrl: require("../assets/img/projects/learnz.png"),
       gitUrl: "https://github.com/Astraxx04/LearnZ", 
       pageUrl: "https://astraxx200254.pythonanywhere.com",
@@ -51,8 +59,32 @@ function Projects() {
     },
   ];
 
+  const extraprojects = [
+    {
+      title: "Weather App",
+      description: "A react native application which displays current wether data, predicted weather and city details obtained from OpenWeatherMap API",
+      imgUrl: require("../assets/img/projects/weatherApp.png"),
+      gitUrl: "https://github.com/Astraxx04/Weather-App", 
+      pageUrl: "https://github.com/Astraxx04/Weather-App", 
+    },
+    {
+      title: "Catalysis",
+      description: "A static web portal designed to give necessary information about the events organised during a technical fest.",
+      imgUrl: require("../assets/img/projects/catalysis.png"),
+      gitUrl: "https://github.com/Astraxx04/catalysis", 
+      pageUrl: "https://catalysis.netlify.app",
+    },
+    {
+      title: "Exercise Tracker",
+      description: "A basic exercise tracker app which allows to create new users and allows users to add , update and delete exercises.",
+      imgUrl: require("../assets/img/projects/exerciseTracker.png"),
+      gitUrl: "https://github.com/Astraxx04/ExerciseTracker",
+      pageUrl: "https://exercisetrackerapp.netlify.app", 
+    },
+  ];
+
   return (
-    <section className="project" id="projects">
+    <section className="project pb-4" id="projects">
       <Container>
         <Row>
           <Col size={12}>
@@ -73,6 +105,32 @@ function Projects() {
                           })
                         }
                       </Row>
+                    </Tab.Pane>
+                  </Tab.Content>
+                </Tab.Container>
+              </div>}
+            </TrackVisibility>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container>
+        <Row>
+          <Col size={12}>
+            <TrackVisibility>
+              {({ isVisible }) =>
+              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+                <div> <p className="text-xl font-semibold justify-center " style={{ cursor: 'pointer' }} onClick={handleMiniProjectsClick}>{showMiniProjects ? "View less " : "View more "} {getArrowCharacter()} </p> </div>      
+                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                    <Tab.Pane eventKey="first">
+                        {showMiniProjects && (
+                          <Row>
+                            {extraprojects.map((project, index) => (
+                              <ProjectCard key={index} {...project} />
+                            ))}
+                          </Row>
+                        )}
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
