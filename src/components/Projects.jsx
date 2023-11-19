@@ -33,7 +33,7 @@ function Projects() {
       description: "Deployment under process",
       imgUrl: require("../assets/img/projects/learnz.png"),
       gitUrl: "https://github.com/Astraxx04/LearnZ", 
-      pageUrl: "",
+      pageUrl: "https://astraxx200254.pythonanywhere.com",
     },
     {
       title: "Ticket Booking",
