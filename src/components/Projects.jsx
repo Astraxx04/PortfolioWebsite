@@ -62,7 +62,7 @@ function Projects() {
   const extraprojects = [
     {
       title: "Weather App",
-      description: "A react native application which displays current wether data, predicted weather and city details obtained from OpenWeatherMap API",
+      description: "A react native application which displays current weather, predicted weather and city details obtained from OpenWeatherMap API",
       imgUrl: require("../assets/img/projects/weatherApp.png"),
       gitUrl: "https://github.com/Astraxx04/Weather-App", 
       pageUrl: "https://github.com/Astraxx04/Weather-App", 
