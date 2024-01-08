@@ -16,6 +16,13 @@ function Projects() {
 
   const projects = [
     {
+      title: "Pratyaksh",
+      description: "Pratyaksh offers a solution that combines GIS and Digital Image Processing for real-time progress tracking of infrastructure development.",
+      imgUrl: require("../assets/img/projects/pratyaksh.png"),
+      gitUrl: "https://github.com/Pratyaksh-DORA/Pratyaksh", 
+      pageUrl: "https://main--ninja-hattori.netlify.app/",
+    },
+    {
       title: "Track Leaf",
       description: "An effective inventory management system or ensuring the seamless flow of resources while optimizing costs and reducing waste.",
       imgUrl: require("../assets/img/projects/trackleaf.png"),
@@ -50,6 +57,9 @@ function Projects() {
       gitUrl: "https://github.com/Astraxx04/ticketshow_mad1", 
       pageUrl: "https://astraxx04.pythonanywhere.com",
     },
+  ];
+
+  const extraprojects = [
     {
       title: "Organ Procurement",
       description: "Hospitals can request organs, and nearby hospitals with available organs will be displayed based on proximity.",
@@ -57,9 +67,6 @@ function Projects() {
       gitUrl: "https://github.com/Astraxx04/Organ_Procurement_Network", 
       pageUrl: "https://astraxx2542.pythonanywhere.com",
     },
-  ];
-
-  const extraprojects = [
     {
       title: "Weather App",
       description: "A react native application which displays current weather, predicted weather and city details obtained from OpenWeatherMap API",

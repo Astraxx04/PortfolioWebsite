@@ -76,7 +76,7 @@ function Footer() {
             </div>
           </Col>
         </Row>
-        <p className="copyright lg:float-right md:float-right pb-8 text-center mx-10">&copy; Copyright 2023. All Rights Reserved</p>
+        <p className="copyright lg:float-right md:float-right mb-2 text-center mx-10">&copy; Copyright 2024. All Rights Reserved</p>
       </Container>
     </footer>
   )
