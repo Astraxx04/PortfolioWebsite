@@ -5,7 +5,7 @@ html, body {
 }
 
 .blogs-container {
-    background-image: url("../img/bg-blog.jpeg");
+    background-image: url("../img/bg-blog.jpg");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,6 +13,7 @@ html, body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    overflow: scroll;
 }
 
 .blogs .blog-imgbx {

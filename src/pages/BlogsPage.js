@@ -18,7 +18,7 @@ function BlogsPage() {
 
   return (
     <div className='blogs-container pt-24'>
-        <h2 className='text-center'>Blogs</h2>
+        <h2 className='text-center font-semibold'>Blogs</h2>
         <div className="blogs flex flex-wrap">
             {blogsList.map((blog, index) => (
                 <Col key={index} xs={12} sm={6} md={4} lg={3} className="p-8">
