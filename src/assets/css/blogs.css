@@ -1,0 +1,78 @@
+/* Update your external CSS file */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.blogs-container {
+    background-image: url("../img/bg-blog.jpeg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.blogs .blog-imgbx {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+/* .blogs .blog-imgbx::before {
+    content: "";
+    background: linear-gradient(90.21deg, rgba(2, 2, 2, 0) -5.91%, rgba(8, 8, 8, 1) 111.58%);
+    opacity: 0.95;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.blogs .blog-imgbx:hover::before {
+    height: 100%;
+} */
+
+/* .blogs .blog-txtx {
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    width: 100%;
+}
+
+.blogs .blog-imgbx:hover .blog-txtx {
+    top: 50%;
+    opacity: 1;
+} */
+
+.blogs .blog-txtx h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 0.8px;
+    line-height: 1.1em;
+}
+
+.blogs .blog-txtx span {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    letter-spacing: 0.8px;
+}
+
+.button-blog {
+    transition: transform 200ms,background 200ms;
+}
+
+.button-blog:hover {
+    transform: translateY(-2px);
+}
+                
