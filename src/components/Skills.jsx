@@ -58,8 +58,8 @@ function Skills() {
               </Carousel>
               <Carousel responsive={responsive} infinite={false} className="owl-carousel owl-theme skill-slider pt-16">
                 <div className="item">
-                  <img src={require("../assets/img/icons/bootstrap.png")} alt="Bootstrap"/>
-                  <h5>Bootstrap</h5>
+                  <img src={require("../assets/img/icons/golang.png")} alt="Bootstrap"/>
+                  <h5>GoLang</h5>
                 </div>
                 <div className="item">
                   <img src={require("../assets/img/icons/tailwindCSS.png")} alt="tailwindCSS"/>
