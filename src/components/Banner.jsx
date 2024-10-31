@@ -18,9 +18,8 @@ function Banner() {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h1 className="pt-8">Hola! I'm Gagan</h1>
                   <p>
-                    I'm a final year student pursuing a degree in Information Science and Engineering from DSCE Bangalore. I'm a passionate MERN stack developer who loves to craft web applications that not only look good but also work seamlessly.
-                    Currently, I'm on a thrilling journey, exploring the enchanting world of Artificial Intelligence and Machine Learning. <br /><br />
-                    My mission? To teach machines how to appreciate a good cup of coffee and tell me jokes! When I'm not coding or buried in textbooks, you can find me in a coffee shop ☕, sipping on a latte and debugging life's mysteries.
+                  I'm a passionate Django and MERN stack developer who loves to craft web applications that not only look good but also work seamlessly. Currently, I'm on a thrilling journey, exploring the enchanting world of Artificial Intelligence and Machine Learning. <br />
+                  My mission? To teach machines how to appreciate a good cup of coffee and tell me jokes! When I'm not coding or debugging, you can find me in a coffee shop ☕, sipping on a latte and pondering life's mysteries.  
                   </p>
                   <button className="tagline" onClick={openResume}>Resume</button>
               </div>}
