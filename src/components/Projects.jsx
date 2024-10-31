@@ -30,10 +30,10 @@ function Projects() {
       pageUrl: "https://track-leaf-1iwu.vercel.app",
     },
     {
-      title: "Hackman v6",
+      title: "Hackman v7",
       description: "A web portal designed to streamline hackathon registrations and provide essential information to users.",
-      imgUrl: require("../assets/img/projects/hackman.png"),
-      gitUrl: "https://github.com/Astraxx04/hackmanv6", 
+      imgUrl: require("../assets/img/projects/hackmanv7.png"),
+      gitUrl: "https://github.com/Astraxx04/hackmanv7", 
       pageUrl: "https://www.hackman.in",
     },
     {
@@ -60,6 +60,13 @@ function Projects() {
   ];
 
   const extraprojects = [
+    {
+      title: "Hackman v6",
+      description: "A web portal designed to streamline hackathon registrations and provide essential information to users.",
+      imgUrl: require("../assets/img/projects/hackmanv6.png"),
+      gitUrl: "https://github.com/Astraxx04/hackmanv6", 
+      pageUrl: "https://hackman.netlify.app",
+    },
     {
       title: "Organ Procurement",
       description: "Hospitals can request organs, and nearby hospitals with available organs will be displayed based on proximity.",
