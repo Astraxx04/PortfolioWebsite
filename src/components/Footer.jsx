@@ -68,6 +68,7 @@ function Footer() {
             <div className="social-icon flex justify-between pt-4 lg:pt-0 md:pt-0 mx-8">
               <div><a href="https://github.com/Astraxx04" target="_blank" rel="noreferrer"><img className="icon" src={require("../assets/img/icons/github.png")} alt="Github Icon" /></a></div>
               <div><a href="https://www.linkedin.com/in/gagan-s-105706202/" target="_blank" rel="noreferrer"><img className="icon" src={require("../assets/img/icons/linkedin.png")} alt="LinkedIn Icon" /></a></div>
+              <div><a href="https://leetcode.com/u/astraxx2542/" target="_blank" rel="noreferrer"><img className="icon" src={require("../assets/img/icons/leetcode.png")} alt="Leetcode Icon" /></a></div>
               <div><a href="mailto:gagan200254@gmail.com" target="_blank" rel="noreferrer"><img className="icon" src={require("../assets/img/icons/gmail.png")} alt="Gmail Icon" /></a></div>
               <div><a href="https://www.instagram.com/gagans_04/" target="_blank" rel="noreferrer"><img className="icon" src={require("../assets/img/icons/instagram.png")} alt="Instagram Icon" /></a></div>
             </div>
