@@ -4,8 +4,14 @@ import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "../assets/css/projects.css";
 import TrackVisibility from 'react-on-screen';
+import { useInView } from 'react-intersection-observer';
 
 function Projects() {
+
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  });
 
   const [showMiniProjects, setShowMiniProjects] = useState(false);
 
@@ -98,7 +104,7 @@ function Projects() {
   ];
 
   return (
-    <section className="project pb-4" id="projects">
+    <section ref={ref} className={`project pb-4 ${inView ? 'fade-up' : ''}`} id="projects">
       <Container>
         <Row>
           <Col size={12}>
