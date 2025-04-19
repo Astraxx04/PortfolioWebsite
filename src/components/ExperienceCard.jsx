@@ -24,13 +24,6 @@ function ExperienceCard({
 
     return (
         <div ref={ref} className={`experience ${inView ? 'fade-up' : ''}`}>
-            <div>
-                <img
-                    className="w-10 h-16 ml-auto mr-auto"
-                    src={require('../assets/img/arrow.png')}
-                    alt="arrow"
-                />
-            </div>
             <div className="exp-imgbx">
                 <div className="p-8">
                     <h3>{role}</h3>
