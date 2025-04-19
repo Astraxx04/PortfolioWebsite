@@ -15,12 +15,13 @@
 .footer p {
     font-weight: 400;
     font-size: 14px;
-    color: #B8B8B8;
+    color: #b8b8b8;
     letter-spacing: 0.5px;
     margin-top: 20px;
 }
 
-.footer form input, .footer form textarea {
+.footer form input,
+.footer form textarea {
     width: 100%;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -34,23 +35,25 @@
     transition: 0.3s ease-in-out;
 }
 
-.footer form input:focus, .footer form textarea:focus {
+.footer form input:focus,
+.footer form textarea:focus {
     background: rgba(255, 255, 255, 1);
     color: #121212;
 }
 
-.footer form input::placeholder, .footer form textarea::placeholder {
+.footer form input::placeholder,
+.footer form textarea::placeholder {
     font-size: 16px;
     font-weight: 400;
     color: #fff;
-  
 }
-  
-.footer form input:focus::placeholder, .footer form textarea:focus::placeholder {
+
+.footer form input:focus::placeholder,
+.footer form textarea:focus::placeholder {
     color: #121212;
     opacity: 0.8;
 }
-  
+
 .footer form button {
     font-weight: 700;
     color: #000;
@@ -62,18 +65,18 @@
     position: relative;
     transition: 0.3s ease-in-out;
 }
-  
+
 .footer form button span {
     z-index: 1;
     position: relative;
 }
-  
+
 .footer form button:hover {
     color: #fff;
 }
 
 .footer form button::before {
-    content: "";
+    content: '';
     background: #121212;
     width: 0;
     height: 100%;
@@ -83,7 +86,7 @@
     z-index: 0;
     transition: 0.3s ease-in-out;
 }
-  
+
 .footer form button:hover::before {
     width: 100%;
 }
@@ -95,4 +98,10 @@
 
 .footer .copyright {
     font-size: large;
+}
+
+.footer .error-message {
+    color: rgb(252, 61, 61);
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
 }
