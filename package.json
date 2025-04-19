@@ -32,7 +32,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "react-scripts start"
+    "dev": "react-scripts start",
+    "format": "prettier --write \"**/*.{js,jsx,css}\""
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +54,7 @@
     ]
   },
   "devDependencies": {
+    "prettier": "^3.5.3",
     "tailwindcss": "^3.3.3"
   },
   "overrides": {

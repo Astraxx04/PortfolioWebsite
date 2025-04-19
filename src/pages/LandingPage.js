@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Experience from '../components/Experience';
 
 function LandingPage() {
-    return(
+    return (
         <div id="landingPage">
             <Banner />
             <Skills />
@@ -14,6 +14,6 @@ function LandingPage() {
             <Footer />
         </div>
     );
-};
+}
 
 export default LandingPage;

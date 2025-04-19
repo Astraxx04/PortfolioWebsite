@@ -1,11 +1,12 @@
 /* Update your external CSS file */
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
 
 .blogs-container {
-    background-image: url("../img/bg-blog.jpg");
+    background-image: url('../img/bg-blog.jpg');
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,10 +71,11 @@ html, body {
 }
 
 .button-blog {
-    transition: transform 200ms,background 200ms;
+    transition:
+        transform 200ms,
+        background 200ms;
 }
 
 .button-blog:hover {
     transform: translateY(-2px);
 }
-                
