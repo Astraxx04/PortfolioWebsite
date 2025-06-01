@@ -37,13 +37,6 @@ function Skills() {
                             >
                                 <div className="item">
                                     <img
-                                        src={require('../assets/img/icons/java.png')}
-                                        alt="java"
-                                    />
-                                    <h5>Java</h5>
-                                </div>
-                                <div className="item">
-                                    <img
                                         src={require('../assets/img/icons/python.png')}
                                         alt="python"
                                     />
@@ -51,18 +44,25 @@ function Skills() {
                                 </div>
                                 <div className="item">
                                     <img
-                                        src={require('../assets/img/icons/mongoDB.png')}
-                                        alt="mongoDB"
+                                        src={require('../assets/img/icons/java.png')}
+                                        alt="java"
                                     />
-                                    <h5>MongoDB</h5>
+                                    <h5>Java</h5>
+                                </div>
+                                <div className="item">
+                                    <img
+                                        src={require('../assets/img/icons/golang.png')}
+                                        alt="Bootstrap"
+                                    />
+                                    <h5>GoLang</h5>
                                 </div>
                                 <div className="item">
                                     <img
                                         height="512"
-                                        src={require('../assets/img/icons/expressJS.png')}
+                                        src={require('../assets/img/icons/django.png')}
                                         alt="expressJS"
                                     />
-                                    <h5 className="">ExpressJS</h5>
+                                    <h5 className="">Django</h5>
                                 </div>
                                 <div className="item">
                                     <img
@@ -86,17 +86,18 @@ function Skills() {
                             >
                                 <div className="item">
                                     <img
-                                        src={require('../assets/img/icons/golang.png')}
-                                        alt="Bootstrap"
+                                        src={require('../assets/img/icons/mongoDB.png')}
+                                        alt="mongoDB"
                                     />
-                                    <h5>GoLang</h5>
+                                    <h5>MongoDB</h5>
                                 </div>
                                 <div className="item">
                                     <img
-                                        src={require('../assets/img/icons/tailwindCSS.png')}
-                                        alt="tailwindCSS"
+                                        height="512"
+                                        src={require('../assets/img/icons/expressJS.png')}
+                                        alt="expressJS"
                                     />
-                                    <h5>TailwindCSS</h5>
+                                    <h5 className="">ExpressJS</h5>
                                 </div>
                                 <div className="item">
                                     <img

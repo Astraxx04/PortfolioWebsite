@@ -128,7 +128,7 @@ function Footer() {
                         </form>
                     </Col>
                     <Col size={12} md={6}>
-                        <div className="social-icon flex justify-between pt-4 lg:pt-0 md:pt-0 mx-8">
+                        <div className="social-icon flex justify-evenly pt-4 lg:pt-0 md:pt-0 mx-8">
                             <div>
                                 <a
                                     href="https://github.com/Astraxx04"
@@ -157,19 +157,6 @@ function Footer() {
                             </div>
                             <div>
                                 <a
-                                    href="https://leetcode.com/u/astraxx2542/"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    <img
-                                        className="icon"
-                                        src={require('../assets/img/icons/leetcode.png')}
-                                        alt="Leetcode Icon"
-                                    />
-                                </a>
-                            </div>
-                            <div>
-                                <a
                                     href="mailto:gagan200254@gmail.com"
                                     target="_blank"
                                     rel="noreferrer"
@@ -181,19 +168,19 @@ function Footer() {
                                     />
                                 </a>
                             </div>
-                            <div>
+                            {/* <div>
                                 <a
-                                    href="https://www.instagram.com/gagans_04/"
+                                    href="https://leetcode.com/u/astraxx2542/"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
                                     <img
                                         className="icon"
-                                        src={require('../assets/img/icons/instagram.png')}
-                                        alt="Instagram Icon"
+                                        src={require('../assets/img/icons/leetcode.png')}
+                                        alt="Leetcode Icon"
                                     />
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="mx-8 text-center">
                             <p>
