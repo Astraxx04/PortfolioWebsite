@@ -1,0 +1,61 @@
+/* Update your external CSS file */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.extras {
+    padding: 0 0 50px 0;
+    position: relative;
+}
+
+.extras-bx {
+    /* background: #151515; */
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+}
+
+@media (max-width: 640px) {
+    .extras-bx {
+        padding: 10px 5px;
+    }
+}
+
+.extras-slider {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.extras-slider .item img {
+    width: 50%;
+    margin: auto;
+}
+
+.extras-container {
+    background-image: url('../img/bg.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: scroll;
+}
+
+.extras .link-button {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    background: linear-gradient(
+        90.21deg,
+        rgba(115, 106, 111, 0.5) -5.91%,
+        rgba(74, 47, 189, 0.5) 111.58%
+    );
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    display: inline-block;
+}

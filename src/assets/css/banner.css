@@ -1,12 +1,33 @@
 .banner {
+    position: relative;
     margin-top: 0;
-    padding: 260px 0 100px 0;
-    background-image: url('../img/bg.jpeg');
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
+
+.banner-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(2px) brightness(0.7);
+    transform: scale(1.05);
+}
+
+.banner-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+/* Keep your .tagline, h1, p, button styles here */
+
 
 .banner .tagline {
     font-weight: 700;
@@ -25,7 +46,6 @@
 }
 
 .banner h1 {
-    font-size: 65px;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1;

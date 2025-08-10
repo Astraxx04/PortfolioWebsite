@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import Resume from './components/Resume';
 import NavBar from './components/NavBar';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ExtrasPage from './pages/ExtrasPage';
 // import BlogsPage from './pages/BlogsPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<LandingPage />} />
                     <Route path="/resume" element={<Resume />} />
+                    <Route path="/extras" element={<ExtrasPage />} />
                     {/* <Route path="/blogs" element={<BlogsPage />} /> */}
                 </Routes>
             </Router>

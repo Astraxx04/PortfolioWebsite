@@ -56,6 +56,20 @@ function NavBar() {
                                 Projects
                             </Nav.Link>
                             <Nav.Link
+                                href="/#experience"
+                                className={`${activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'}`}
+                                onClick={() => onUpdateActiveLink('experience')}
+                            >
+                                Experience
+                            </Nav.Link>
+                            <Nav.Link
+                                href="/extras"
+                                className={`${activeLink === 'extras' ? 'active navbar-link' : 'navbar-link'}`}
+                                onClick={() => onUpdateActiveLink('extras')}
+                            >
+                                Extras
+                            </Nav.Link>
+                            <Nav.Link
                                 href={'/resume'}
                                 className={`${activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'}`}
                                 onClick={() => onUpdateActiveLink('resume')}

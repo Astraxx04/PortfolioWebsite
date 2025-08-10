@@ -9,7 +9,18 @@ function Banner() {
 
     return (
         <section className="banner" id="home">
-            <Container>
+            <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="banner-video"
+            >
+                <source src={require('../assets/video/test.mp4')} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+
+            <Container className="banner-content">
                 <Row className="aligh-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <TrackVisibility>
@@ -21,8 +32,8 @@ function Banner() {
                                             : ''
                                     }
                                 >
-                                    <h1 className="pt-8">Hola! I'm Gagan</h1>
-                                    <p>
+                                    <h1 className="text-5xl md:text-6xl pt-72 md:pt-8">Hola! I'm Gagan</h1>
+                                    <p className='text-justify'>
                                         Software Developer with a strong
                                         foundation in algorithms, data
                                         structures, and system design, with
@@ -52,11 +63,13 @@ function Banner() {
                         </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img
-                            className="rounded-full mx-auto w-96"
-                            src={require('../assets/img/profile.jpg')}
-                            alt="ProfilePic"
-                        ></img>
+                        <div className='pb-20 md:pb-0'>
+                            <img
+                                className="rounded-full mx-auto w-80 md:w-96"
+                                src={require('../assets/img/profile.jpg')}
+                                alt="ProfilePic"
+                            />
+                        </div>
                     </Col>
                 </Row>
             </Container>
