@@ -29,12 +29,20 @@ function Projects() {
             pageUrl: 'https://main--ninja-hattori.netlify.app/',
         },
         {
-            title: 'Track Leaf',
+            title: 'Learn Z',
             description:
-                'An effective inventory management system or ensuring the seamless flow of resources while optimizing costs and reducing waste.',
-            imgUrl: require('../assets/img/projects/trackleaf.png'),
-            gitUrl: 'https://github.com/Astraxx04/TrackLeaf',
-            pageUrl: 'https://track-leaf-1iwu.vercel.app',
+                'An all-in-one E-learning platform for students and teachers where students can access materials posted by educators.',
+            imgUrl: require('../assets/img/projects/learnz.png'),
+            gitUrl: 'https://github.com/Astraxx04/LearnZ',
+            pageUrl: 'https://astraxx04.pythonanywhere.com',
+        },
+        {
+            title: 'PyCon India 2025',
+            description:
+                'A web portal designed to streamline PyCon India 2025 conference registrations and provide attendees with essential event information.',
+            imgUrl: require('../assets/img/projects/pyConIndia.png'),
+            gitUrl: 'https://github.com/pythonindia/inpycon2025',
+            pageUrl: 'https://in.pycon.org/2025/',
         },
         {
             title: 'Hackman v7',
@@ -42,7 +50,7 @@ function Projects() {
                 'A web portal designed to streamline hackathon registrations and provide essential information to users.',
             imgUrl: require('../assets/img/projects/hackmanv7.png'),
             gitUrl: 'https://github.com/Astraxx04/hackmanv7',
-            pageUrl: 'https://www.hackman.in',
+            pageUrl: 'https://hackmanv7.netlify.app',
         },
         {
             title: 'Catalysis2.0',
@@ -50,27 +58,27 @@ function Projects() {
                 'A MERN Stack application designed to take registrations of participants and provide them with the necessaey information about a technical fest.',
             imgUrl: require('../assets/img/projects/catalysis2.png'),
             gitUrl: 'https://github.com/Astraxx04/Catalysis2.0',
-            pageUrl: 'https://isecatalysis.in',
+            pageUrl: 'https://catalysis2.netlify.app',
         },
         {
-            title: 'Learn Z',
+            title: 'Hackman v6',
             description:
-                'An all-in-one E-learning platform for students and teachers where students can access materials posted by educators.',
-            imgUrl: require('../assets/img/projects/learnz.png'),
-            gitUrl: 'https://github.com/Astraxx04/LearnZ',
-            pageUrl: 'https://astraxx200254.pythonanywhere.com',
+                'A web portal designed to streamline hackathon registrations and provide essential information to users.',
+            imgUrl: require('../assets/img/projects/hackmanv6.png'),
+            gitUrl: 'https://github.com/Astraxx04/hackmanv6',
+            pageUrl: 'https://hackman.netlify.app',
         },
+    ];
+
+    const extraprojects = [
         {
             title: 'Ticket Booking',
             description:
                 'A Python and Flask app for ticket booking, allowing users to book tickets and enabling admin to track trends with graphs.',
             imgUrl: require('../assets/img/projects/ticketshow.png'),
             gitUrl: 'https://github.com/Astraxx04/ticketshow_mad1',
-            pageUrl: 'https://astraxx04.pythonanywhere.com',
+            pageUrl: 'https://github.com/Astraxx04/ticketshow_mad1',
         },
-    ];
-
-    const extraprojects = [
         {
             title: 'Hackman v6',
             description:

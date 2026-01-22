@@ -44,10 +44,11 @@ function Skills() {
                                 </div>
                                 <div className="item">
                                     <img
-                                        src={require('../assets/img/icons/java.png')}
-                                        alt="java"
+                                        height="512"
+                                        src={require('../assets/img/icons/django.png')}
+                                        alt="expressJS"
                                     />
-                                    <h5>Java</h5>
+                                    <h5 className="">Django</h5>
                                 </div>
                                 <div className="item">
                                     <img
@@ -58,11 +59,17 @@ function Skills() {
                                 </div>
                                 <div className="item">
                                     <img
-                                        height="512"
-                                        src={require('../assets/img/icons/django.png')}
-                                        alt="expressJS"
+                                        src={require('../assets/img/icons/nodeJS.png')}
+                                        alt="nodeJS"
                                     />
-                                    <h5 className="">Django</h5>
+                                    <h5>NodeJS</h5>
+                                </div>
+                                <div className="item">
+                                    <img
+                                        src={require('../assets/img/icons/nextJS.png')}
+                                        alt="nextJS"
+                                    />
+                                    <h5>NextJS</h5>
                                 </div>
                                 <div className="item">
                                     <img
@@ -70,13 +77,6 @@ function Skills() {
                                         alt="reactJS"
                                     />
                                     <h5>ReactJS</h5>
-                                </div>
-                                <div className="item">
-                                    <img
-                                        src={require('../assets/img/icons/nodeJS.png')}
-                                        alt="nodeJS"
-                                    />
-                                    <h5>NodeJS</h5>
                                 </div>
                             </Carousel>
                             <Carousel
@@ -86,18 +86,24 @@ function Skills() {
                             >
                                 <div className="item">
                                     <img
-                                        src={require('../assets/img/icons/mongoDB.png')}
-                                        alt="mongoDB"
+                                        src={require('../assets/img/icons/aws.png')}
+                                        alt="aws"
                                     />
-                                    <h5>MongoDB</h5>
+                                    <h5>AWS</h5>
                                 </div>
                                 <div className="item">
                                     <img
-                                        height="512"
-                                        src={require('../assets/img/icons/expressJS.png')}
-                                        alt="expressJS"
+                                        src={require('../assets/img/icons/docker.png')}
+                                        alt="docker"
                                     />
-                                    <h5 className="">ExpressJS</h5>
+                                    <h5>Docker</h5>
+                                </div>
+                                <div className="item">
+                                    <img
+                                        src={require('../assets/img/icons/tensorFlow.png')}
+                                        alt="tensorFlow"
+                                    />
+                                    <h5>TensorFlow</h5>
                                 </div>
                                 <div className="item">
                                     <img
@@ -108,24 +114,17 @@ function Skills() {
                                 </div>
                                 <div className="item">
                                     <img
-                                        src={require('../assets/img/icons/reactNative.png')}
-                                        alt="Bootstrap"
+                                        src={require('../assets/img/icons/postgresql.png')}
+                                        alt="postgresql"
                                     />
-                                    <h5>React Native</h5>
+                                    <h5>PostgreSQL</h5>
                                 </div>
                                 <div className="item">
                                     <img
-                                        src={require('../assets/img/icons/mysql.png')}
-                                        alt="mysql"
+                                        src={require('../assets/img/icons/mongoDB.png')}
+                                        alt="mongoDB"
                                     />
-                                    <h5>MySQL</h5>
-                                </div>
-                                <div className="item">
-                                    <img
-                                        src={require('../assets/img/icons/postman.png')}
-                                        alt="postman"
-                                    />
-                                    <h5>Postman</h5>
+                                    <h5>MongoDB</h5>
                                 </div>
                             </Carousel>
                         </div>

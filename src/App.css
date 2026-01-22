@@ -4,11 +4,13 @@
     src: url('./assets/font/CentraNo2-Bold.ttf');
     font-weight: 700;
 }
+
 @font-face {
     font-family: Centra;
     src: url('./assets/font/CentraNo2-Medium.ttf');
     font-weight: 500;
 }
+
 @font-face {
     font-family: Centra;
     src: url('./assets/font/CentraNo2-Book.ttf');
@@ -92,6 +94,7 @@ p.success {
 p.danger {
     color: red;
 }
+
 /************ Navbar Css ************/
 
 /************ Banner Css ************/
@@ -105,14 +108,17 @@ p.danger {
     background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
     padding: 60px 0 200px 0;
 }
+
 .contact img {
     width: 92%;
 }
+
 .contact h2 {
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 30px;
 }
+
 .contact form input,
 .contact form textarea {
     width: 100%;
@@ -127,22 +133,26 @@ p.danger {
     letter-spacing: 0.8px;
     transition: 0.3s ease-in-out;
 }
+
 .contact form input:focus,
 .contact form textarea:focus {
     background: rgba(255, 255, 255, 1);
     color: #121212;
 }
+
 .contact form input::placeholder,
 .contact form textarea::placeholder {
     font-size: 16px;
     font-weight: 400;
     color: #fff;
 }
+
 .contact form input:focus::placeholder,
 .contact form textarea:focus::placeholder {
     color: #121212;
     opacity: 0.8;
 }
+
 .contact form button {
     font-weight: 700;
     color: #000;
@@ -154,13 +164,16 @@ p.danger {
     position: relative;
     transition: 0.3s ease-in-out;
 }
+
 .contact form button span {
     z-index: 1;
     position: relative;
 }
+
 .contact form button:hover {
     color: #fff;
 }
+
 .contact form button::before {
     content: '';
     background: #121212;
@@ -172,6 +185,7 @@ p.danger {
     z-index: 0;
     transition: 0.3s ease-in-out;
 }
+
 .contact form button:hover::before {
     width: 100%;
 }
@@ -184,6 +198,7 @@ p.danger {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .newsletter-bx {
     background: #ffffff;
     border-radius: 55px;
@@ -192,11 +207,13 @@ p.danger {
     margin-bottom: 80px;
     margin-top: -122px;
 }
+
 .newsletter-bx h3 {
     font-weight: 700;
     letter-spacing: 0.5px;
     line-height: 1.2em;
 }
+
 .new-email-bx {
     background: #fff;
     padding: 5px;
@@ -206,6 +223,7 @@ p.danger {
     display: flex;
     align-items: center;
 }
+
 .new-email-bx::before {
     content: '';
     background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
@@ -217,6 +235,7 @@ p.danger {
     bottom: -1px;
     right: -1px;
 }
+
 .new-email-bx::after {
     content: '';
     background: #fff;
@@ -228,6 +247,7 @@ p.danger {
     bottom: 0;
     right: 0;
 }
+
 .new-email-bx input {
     width: 100%;
     color: #121212;
@@ -236,6 +256,7 @@ p.danger {
     border: 0;
     padding: 0 15px;
 }
+
 .new-email-bx button {
     background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
     padding: 20px 65px;
@@ -244,13 +265,123 @@ p.danger {
     letter-spacing: 0.5px;
     border-radius: 18px;
 }
+
 .footer img {
     width: 26%;
 }
+
 .footer p {
     font-weight: 400;
     font-size: 14px;
     color: #b8b8b8;
     letter-spacing: 0.5px;
     margin-top: 20px;
+}
+
+/************ Button Animation Css ************/
+.tagline {
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.tagline span {
+    position: absolute;
+    display: block;
+}
+
+.tagline span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #fff);
+}
+
+.tagline:hover span:nth-child(1) {
+    animation: btn-anim1 2s linear infinite;
+}
+
+@keyframes btn-anim1 {
+    0% {
+        left: -100%;
+    }
+
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+.tagline span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #fff);
+}
+
+.tagline:hover span:nth-child(2) {
+    animation: btn-anim2 2s linear infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes btn-anim2 {
+    0% {
+        top: -100%;
+    }
+
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+.tagline span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #fff);
+}
+
+.tagline:hover span:nth-child(3) {
+    animation: btn-anim3 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes btn-anim3 {
+    0% {
+        right: -100%;
+    }
+
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+.tagline span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #fff);
+}
+
+.tagline:hover span:nth-child(4) {
+    animation: btn-anim4 2s linear infinite;
+    animation-delay: 1.5s;
+}
+
+@keyframes btn-anim4 {
+    0% {
+        bottom: -100%;
+    }
+
+    50%,
+    100% {
+        bottom: 100%;
+    }
 }

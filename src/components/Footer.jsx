@@ -195,7 +195,7 @@ function Footer() {
                     </Col>
                 </Row>
                 <p className="copyright lg:float-right md:float-right mb-2 text-center mx-10">
-                    &copy; Copyright 2025. All Rights Reserved
+                    &copy; Copyright 2026. All Rights Reserved
                 </p>
             </Container>
         </footer>

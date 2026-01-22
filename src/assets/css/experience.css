@@ -9,22 +9,13 @@
     text-align: center;
 }
 
+/* Retaining basic text styles as fallbacks or base styles */
 .experience p {
     color: #b8b8b8;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 12px 0;
-}
-
-.exp-imgbx {
-    position: relative;
-    border-radius: 30px;
-    overflow: hidden;
-    margin-bottom: 4px;
-    margin-top: 4px;
-    height: fit-content;
-    background: #151515;
 }
 
 .exp-background-img {
@@ -36,15 +27,14 @@
     pointer-events: none;
 }
 
-.experience {
+/* Animation classes */
+.experience-item {
     opacity: 0;
     transform: translateY(50px);
-    transition:
-        opacity 0.6s ease-out,
-        transform 0.6s ease-out;
+    transition: all 0.6s ease-out;
 }
 
-.experience.fade-up {
+.experience-item.fade-up {
     opacity: 1;
     transform: translateY(0);
 }

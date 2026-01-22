@@ -22,12 +22,20 @@ function ProjectCard({ title, description, imgUrl, gitUrl, pageUrl }) {
                             onClick={handleGithubClick}
                             className="tagline p-2 rounded-md text-lg bg-sky-400 ml-8 float-left w-24 h-auto"
                         >
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                             Github
                         </button>
                         <button
                             onClick={handleViewClick}
                             className="tagline p-2 rounded-md text-lg bg-sky-400 mr-8 float-right w-24 h-auto"
                         >
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                             View
                         </button>
                     </div>

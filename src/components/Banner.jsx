@@ -34,17 +34,13 @@ function Banner() {
                                 >
                                     <h1 className="text-5xl md:text-6xl pt-72 md:pt-8">Hola! I'm Gagan</h1>
                                     <p className='text-justify'>
-                                        Software Developer with a strong
-                                        foundation in algorithms, data
-                                        structures, and system design, with
-                                        hands-on experience in full-stack
-                                        development and cloud technologies.
-                                        Eager to contribute to innovative
-                                        projects and create customer-focused
-                                        solutions. Currently, I'm on a thrilling
-                                        journey, exploring the enchanting world
-                                        of Artificial Intelligence and Machine
-                                        Learning. <br />
+                                        I'm a Full Stack Developer with 1.5+ years of experience,
+                                        building scalable and high-performance web applications using Django,
+                                        DRF, GoLang and AWS.
+                                        I enjoy solving complex problems, designing reliable systems,
+                                        and building customer-focused solutions that perform well at scale. <br /> <br />
+                                        Currently exploring Artificial Intelligence and Machine Learning
+                                        to expand my engineering toolkit and build smarter applications. <br /><br />
                                         My mission? To teach machines how to
                                         appreciate a good cup of coffee and tell
                                         me jokes! When I'm not coding or
@@ -56,6 +52,10 @@ function Banner() {
                                         className="tagline"
                                         onClick={openResume}
                                     >
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
                                         Resume
                                     </button>
                                 </div>
