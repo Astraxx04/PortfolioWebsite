@@ -87,6 +87,13 @@ select:focus {
     }
 }
 
+@media (max-width: 768px) {
+    .container {
+        padding-left: 32px !important;
+        padding-right: 32px !important;
+    }
+}
+
 p.success {
     color: green;
 }

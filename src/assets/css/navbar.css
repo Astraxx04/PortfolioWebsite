@@ -4,11 +4,13 @@
     src: url('../font/CentraNo2-Bold.ttf');
     font-weight: 700;
 }
+
 @font-face {
     font-family: Centra;
     src: url('../font/CentraNo2-Medium.ttf');
     font-weight: 500;
 }
+
 @font-face {
     font-family: Centra;
     src: url('../font/CentraNo2-Book.ttf');
@@ -141,6 +143,12 @@ nav.navbar .navbar-toggler-icon {
     border-bottom: 2px solid #fff;
     transition: all 300ms linear;
     top: -2px;
+}
+
+@media (max-width: 768px) {
+    nav.navbar .navbar-toggler {
+        margin-left: -28px !important;
+    }
 }
 
 nav.navbar .navbar-toggler-icon:focus {

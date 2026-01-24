@@ -33,14 +33,15 @@ function Banner() {
                                     }
                                 >
                                     <h1 className="text-5xl md:text-6xl pt-72 md:pt-8">Hola! I'm Gagan</h1>
-                                    <p className='text-justify'>
+                                    <p className='text-justify px-0'>
                                         I'm a Full Stack Developer with 1.5+ years of experience,
                                         building scalable and high-performance web applications using Django,
-                                        DRF, GoLang and AWS.
-                                        I enjoy solving complex problems, designing reliable systems,
+                                        DRF, GoLang and AWS. I enjoy solving complex problems, designing reliable systems,
                                         and building customer-focused solutions that perform well at scale. <br /> <br />
+
                                         Currently exploring Artificial Intelligence and Machine Learning
                                         to expand my engineering toolkit and build smarter applications. <br /><br />
+
                                         My mission? To teach machines how to
                                         appreciate a good cup of coffee and tell
                                         me jokes! When I'm not coding or
