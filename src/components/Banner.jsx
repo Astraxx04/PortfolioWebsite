@@ -32,7 +32,7 @@ function Banner() {
                                             : ''
                                     }
                                 >
-                                    <h1 className="text-5xl md:text-6xl pt-72 md:pt-8">Wassup My fellas!! How's life? t8</h1>
+                                    <h1 className="text-5xl md:text-6xl pt-72 md:pt-8">Wassup My fellas!! How's life? t9</h1>
                                     <p className='text-justify px-0'>
                                         I'm a Full Stack Developer with 1.5+ years of experience,
                                         building scalable and high-performance web applications using Django,
