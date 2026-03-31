@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
-import resumeLink from '../assets/docs/resume/jan2026/Gagan_Resume.pdf';
+import resumeLink from '../assets/docs/resume/mar2026/Gagan_Resume.pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import '../assets/css/resume.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
