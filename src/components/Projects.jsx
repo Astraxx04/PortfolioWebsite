@@ -71,22 +71,22 @@ function Projects() {
     ];
 
     const extraprojects = [
-        {
-            title: 'Ticket Booking',
-            description:
-                'A Python and Flask app for ticket booking, allowing users to book tickets and enabling admin to track trends with graphs.',
-            imgUrl: require('../assets/img/projects/ticketshow.png'),
-            gitUrl: 'https://github.com/Astraxx04/ticketshow_mad1',
-            pageUrl: 'https://github.com/Astraxx04/ticketshow_mad1',
-        },
-        {
-            title: 'Hackman v6',
-            description:
-                'A web portal designed to streamline hackathon registrations and provide essential information to users.',
-            imgUrl: require('../assets/img/projects/hackmanv6.png'),
-            gitUrl: 'https://github.com/Astraxx04/hackmanv6',
-            pageUrl: 'https://hackman.netlify.app',
-        },
+        // {
+        //     title: 'Ticket Booking',
+        //     description:
+        //         'A Python and Flask app for ticket booking, allowing users to book tickets and enabling admin to track trends with graphs.',
+        //     imgUrl: require('../assets/img/projects/ticketshow.png'),
+        //     gitUrl: 'https://github.com/Astraxx04/ticketshow_mad1',
+        //     pageUrl: 'https://github.com/Astraxx04/ticketshow_mad1',
+        // },
+        // {
+        //     title: 'Hackman v6',
+        //     description:
+        //         'A web portal designed to streamline hackathon registrations and provide essential information to users.',
+        //     imgUrl: require('../assets/img/projects/hackmanv6.png'),
+        //     gitUrl: 'https://github.com/Astraxx04/hackmanv6',
+        //     pageUrl: 'https://hackman.netlify.app',
+        // },
         {
             title: 'Organ Procurement',
             description:
@@ -111,14 +111,14 @@ function Projects() {
             gitUrl: 'https://github.com/Astraxx04/catalysis',
             pageUrl: 'https://catalysis.netlify.app',
         },
-        {
-            title: 'Exercise Tracker',
-            description:
-                'A basic exercise tracker app which allows to create new users and allows users to add , update and delete exercises.',
-            imgUrl: require('../assets/img/projects/exerciseTracker.png'),
-            gitUrl: 'https://github.com/Astraxx04/ExerciseTracker',
-            pageUrl: 'https://exercisetrackerapp.netlify.app',
-        },
+        // {
+        //     title: 'Exercise Tracker',
+        //     description:
+        //         'A basic exercise tracker app which allows to create new users and allows users to add , update and delete exercises.',
+        //     imgUrl: require('../assets/img/projects/exerciseTracker.png'),
+        //     gitUrl: 'https://github.com/Astraxx04/ExerciseTracker',
+        //     pageUrl: 'https://exercisetrackerapp.netlify.app',
+        // },
     ];
 
     return (
